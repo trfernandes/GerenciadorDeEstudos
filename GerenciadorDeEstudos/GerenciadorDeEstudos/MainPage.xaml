@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:MyApp"
              x:Class="MyApp.MainPage">
 
-  <Label Text="Amo a juju linda!"
+  <Label Text="Teste vagabundo"
            VerticalOptions="Center"
            HorizontalOptions="Center" />
 
