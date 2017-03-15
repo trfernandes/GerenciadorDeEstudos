@@ -11,8 +11,6 @@ namespace MyApp
     {
         public MainPage()
         {
-            //Gomesss
-            //O thiago não é o melhor
             InitializeComponent();
         }
     }
