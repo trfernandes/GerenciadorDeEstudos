@@ -13,7 +13,7 @@ namespace GerenciadorDeEstudos
         {
             InitializeComponent();
 
-            MainPage = new MyApp.MainPage();
+            MainPage = new GerenciadorDeEstudos.MainPage();
         }
 
         protected override void OnStart()
