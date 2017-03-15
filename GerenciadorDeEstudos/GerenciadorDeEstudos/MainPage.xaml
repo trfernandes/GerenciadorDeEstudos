@@ -1,11 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:MyApp"
-             x:Class="MyApp.MainPage">
+             xmlns:local="clr-namespace:GerenciadorDeEstudos"
+             x:Class="GerenciadorDeEstudos.MainPage">
 
-  <Label Text="Teste vagabundo"
-           VerticalOptions="Center"
-           HorizontalOptions="Center" />
+    <StackLayout>
+        <Slider VerticalOptions="CenterAndExpand" />
+
+        <Label Text="A simple Label"
+           Font="Large"
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+        <Button Text="Click Me!"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" />
+    </StackLayout>
 
 </ContentPage>

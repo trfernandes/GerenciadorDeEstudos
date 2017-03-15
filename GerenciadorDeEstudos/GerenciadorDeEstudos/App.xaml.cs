@@ -5,7 +5,7 @@ using System.Text;
 
 using Xamarin.Forms;
 
-namespace MyApp
+namespace GerenciadorDeEstudos
 {
     public partial class App : Application
     {

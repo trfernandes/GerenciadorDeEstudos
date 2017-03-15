@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace MyApp.iOS
+namespace GerenciadorDeEstudos.iOS
 {
     public class Application
     {

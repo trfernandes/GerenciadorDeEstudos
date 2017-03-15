@@ -23,9 +23,9 @@
     <key>MinimumOSVersion</key>
     <string>6.0</string>
     <key>CFBundleDisplayName</key>
-    <string>MyApp</string>
+    <string>GerenciadorDeEstudos</string>
     <key>CFBundleIdentifier</key>
-    <string>com.yourcompany.MyApp</string>
+    <string>com.yourcompany.GerenciadorDeEstudos</string>
     <key>CFBundleVersion</key>
     <string>1.0</string>
     <key>CFBundleIconFiles</key>
