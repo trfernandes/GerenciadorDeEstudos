@@ -6,7 +6,7 @@
 
   <MasterDetailPage.Master>
     <ContentPage Title="Menu"
-                 BackgroundColor="#e8e8e8">
+                 BackgroundColor="#A9A9A9">
 
       <StackLayout Orientation="Vertical">
 
@@ -14,10 +14,12 @@
              This StackLayout you can use for other
              data that you want to have in your menu drawer
         -->
-        <StackLayout BackgroundColor="#e74c3c"
-                     HeightRequest="75">
+        <StackLayout BackgroundColor="#87CEFF"
+                     HeightRequest="100">
+          <image Source="Logo"
+                 VerticalOptions="Center"/>
 
-          <Label Text="Some Text title"
+          <Label Text="Gerenciador"
                  FontSize="20"
                  VerticalOptions="CenterAndExpand"
                  TextColor="White"
@@ -27,7 +29,7 @@
         <ListView x:Name="navigationDrawerList"
                   RowHeight="60"
                   SeparatorVisibility="None"
-                  BackgroundColor="#e8e8e8"
+                  BackgroundColor="#FFFFFF"
                   ItemSelected="OnMenuItemSelected">
 
           <ListView.ItemTemplate>
