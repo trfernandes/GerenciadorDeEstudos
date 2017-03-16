@@ -14,20 +14,22 @@
              This StackLayout you can use for other
              data that you want to have in your menu drawer
         -->
-        <StackLayout BackgroundColor="#e74c3c"
-                     HeightRequest="75">
-
-          <Label Text="Some Text title"
+        <StackLayout BackgroundColor="##1E90FF"
+                     HeightRequest="100">
+          <Image Source="Logo"                 
+                 VerticalOptions="Center" />
+          
+          <Label Text="Gerenciador de Estudos"
                  FontSize="20"
                  VerticalOptions="CenterAndExpand"
-                 TextColor="White"
+                 TextColor="Black"
                  HorizontalOptions="Center"/>
         </StackLayout>
 
         <ListView x:Name="navigationDrawerList"
                   RowHeight="60"
                   SeparatorVisibility="None"
-                  BackgroundColor="#e8e8e8"
+                  BackgroundColor="#9AC0CD"
                   ItemSelected="OnMenuItemSelected">
 
           <ListView.ItemTemplate>
