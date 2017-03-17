@@ -6,7 +6,7 @@
 
   <MasterDetailPage.Master>
     <ContentPage Title="Menu"
-                 BackgroundColor="#A9A9A9">
+                 BackgroundColor="#0000cd">
 
       <StackLayout Orientation="Vertical">
 
@@ -14,22 +14,30 @@
              This StackLayout you can use for other
              data that you want to have in your menu drawer
         -->
-        <StackLayout BackgroundColor="#87CEFF"
-                     HeightRequest="100">
-          <image Source="Logo"
-                 VerticalOptions="Center"/>
+        <StackLayout BackgroundColor="#87Ceeb"
+                     HeightRequest="100"
+                     VerticalOptions="FillAndExpand"
+                     HorizontalOptions="FillAndExpand"
+                     Orientation="Horizontal">
+          
+          <Image Source="Logo"
+                 WidthRequest="40"
+                 HeightRequest="40"
+                 VerticalOptions="Center" />
+          
 
-          <Label Text="Gerenciador"
+          <Label Text="Gerenciador de Estudos"
                  FontSize="20"
                  VerticalOptions="CenterAndExpand"
-                 TextColor="White"
-                 HorizontalOptions="Center"/>
+                 TextColor="Black"
+                 HorizontalOptions="Center"
+                 FontAttributes = "Bold"/>
         </StackLayout>
 
         <ListView x:Name="navigationDrawerList"
-                  RowHeight="60"
+                  RowHeight="50"
                   SeparatorVisibility="None"
-                  BackgroundColor="#FFFFFF"
+                  BackgroundColor="#ffffff"
                   ItemSelected="OnMenuItemSelected">
 
           <ListView.ItemTemplate>
@@ -43,14 +51,15 @@
                              Spacing="20">
 
                   <Image Source="{Binding Icon}"
-                         WidthRequest="40"
-                         HeightRequest="40"
+                         WidthRequest="20"
+                         HeightRequest="20"
                          VerticalOptions="Center" />
 
-                  <Label Text="{Binding Title}"
-                         FontSize="Medium"
+                  <Label Text="{Binding Title}"                         
+                         FontSize="13"
                          VerticalOptions="Center"
-                         TextColor="Black"/>
+                         TextColor="Black"
+                         FontAttributes = "Bold"/>
                 </StackLayout>
               </ViewCell>
             </DataTemplate>

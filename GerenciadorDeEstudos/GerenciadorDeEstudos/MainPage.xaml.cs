@@ -34,7 +34,8 @@ namespace GerenciadorDeEstudos
             var page1 = new MasterPageItem() { Title = "Página Inicial",
                                                Icon = "PaginaInicial.png",
                                                TargetType = typeof(PaginaInicial)
-            };
+                                               
+            };            
             var page2 = new MasterPageItem() { Title = "Cadastro",
                                                Icon = "Materias.png",
                                                TargetType = typeof(Cadastro)
